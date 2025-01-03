@@ -174,7 +174,7 @@ public class CSVMeudinheiro {
 			data.add(new String[] { "Data", "Valor", "Descrição", "Conta", "ContaTransferencia",
 									"Cartao", "Categoria", "Subcategoria", "Contato", "Centro",
 									"Projeto", "Forma", "NDocumento", "Observacoes",
-									"DataCompetenciaTags"});
+									"DataCompetencia", "Tags"});
 			
 			linhas.forEach(cols -> {
 				data.add(new String[] { cols.get(0), cols.get(2), cols.get(1) });
